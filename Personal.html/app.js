@@ -1,7 +1,7 @@
 
 function setup(){
     createCanvas(1200,768);
-    background(100,0,100);
+    background(100,0,90);
     fill(199,169,72);
 }
 let x= 600
@@ -33,6 +33,7 @@ function draw(){
     rect(555, 380, 100,40);
     rect(555,420,40,200);
     rect(615,420,40,200);
+    rect()
 
     }
     
