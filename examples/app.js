@@ -1,7 +1,4 @@
-let x= 400;
-let y= 400;
-let xSpeed = 1;
-let ySpeed= 1;
+//MAKE CIRCLE 
 
 function setup(){
     createCanvas(800,600)
@@ -10,7 +7,7 @@ function setup(){
 function draw(){
     x= x+xSpeed;
     y= y+ ySpeed;
-    circle(x,y,30)
+    circle(mouseX,mouseY,r)
     if(mouseIsPressed){
         xSpeed= xSpeed * -1;
     }
