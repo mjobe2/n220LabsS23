@@ -14,8 +14,8 @@ let yspeed=5;
 function setup(){
     createCanvas(800,600);
     background(204);
-    xposition= width/2;
-  yposition= height/2;
+    xposition= 200;
+  yposition= 200;
 }
 
 function draw(){

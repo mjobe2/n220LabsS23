@@ -1,9 +1,7 @@
 //much like the ball bounce, but without the y variables
 //speed of 5
 //position is position+speed*direction
-//if position is > than width- radius or position is less than radius change direction by multiplying by -1
-
-
+//if position is > than width- radius reset position to r
 let r=20;
 let xposition;
  let dx=1;
@@ -24,8 +22,8 @@ function draw(){
   xposition= xposition+xspeed*dx;
   
   
-  if (xposition>width-r || xposition<r){
-    dx *=-1;
+  if (xposition>width-r){ 
+    xposition=r
   }
   
     circle(xposition,200,r,r);
