@@ -42,8 +42,8 @@ if (keyIsDown(UP_ARROW)) {
   }
 
   if (keyIsDown(DOWN_ARROW)){
-  rightrect.y=rightrect.y+5      //move them in the other direction when down arrow us down
-  leftrect.y=leftrect.y-5;
+  rightrect.y=rightrect.y-5      //move them in the other direction when down arrow us down
+  leftrect.y=leftrect.y+5;
   }
 
 }
