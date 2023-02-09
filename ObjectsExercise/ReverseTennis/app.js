@@ -37,13 +37,13 @@ rect(leftrect.x,leftrect.y, leftrect.width, leftrect.height);    //use our leftr
 fill(250,25,25);
 rect(rightrect.x,rightrect.y, rightrect.width, rightrect.height); //use our rightrect properties and make it red
 if (keyIsDown(UP_ARROW)) {
-    leftrect.y=leftrect.y+5;      //move them in opposite directions when up arrow is down
-    rightrect.y=rightrect.y-5;    //y + 5 or - sets the speed and direction
+    leftrect.y=leftrect.y-5;      //move them in opposite directions when up arrow is down
+    rightrect.y=rightrect.y+5;    //y + 5 or - sets the speed and direction
   }
 
   if (keyIsDown(DOWN_ARROW)){
-  rightrect.y=rightrect.y+5      //move them in the other direction when down arrow us down
-  leftrect.y=leftrect.y-5;
+  rightrect.y=rightrect.y-5      //move them in the other direction when down arrow us down
+  leftrect.y=leftrect.y+5;
   }
 
 }
