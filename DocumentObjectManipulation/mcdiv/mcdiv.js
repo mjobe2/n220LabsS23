@@ -12,7 +12,7 @@ myWords.style.height=100+"px";         //this section sets the properties of our
 myWords.style.width=100+"px";
 
 function myText(){
-    myWords.innerHTML+="mc"       //adds "mc" whenever this function is called 
+    myWords.innerHTML+="mc"       //adds "mc" whenever this function is called
     
 }
 document.body.appendChild("Div")

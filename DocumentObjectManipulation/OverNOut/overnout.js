@@ -13,7 +13,7 @@ let mySquare= document.getElementById("square");  //can do both onmouseover and 
 
 mySquare.style.backgroundColor= "blue";
 mySquare.style.height= height +"px";
-mySquare.style.width= width+"px";
+mySquare.style.width= width+"px";          //have to add px when working with divs
 
 function getSquare(){
 
