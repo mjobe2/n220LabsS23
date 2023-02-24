@@ -15,10 +15,10 @@ myWords.style.width=100+"px";
 
 let i=["Music","Golf", "My dog", "Food", "Sleep"]
 let t=0;
-while(t<4){
-    t++;
-    myWords.innerHTML+=i[t]+", is one of my favorite things."+"<br />";   //selects element at t, adds words, and breaks up sections
+while(t<5){
     
+    myWords.innerHTML+=i[t]+", is one of my favorite things."+"<br />";   //selects element at t, adds words, and breaks up sections
+    t++;
 }
 
 document.body.appendChild("number")
