@@ -1,6 +1,6 @@
 //create div called number
-//function that starts at 1000 and add 1000 until it gets to 5000
-//IF number=5000 then stop adding
+//create array with 5 things
+//add is my favorite... to end of element of array
 
 let myWords= document.getElementById("number")  
 
@@ -9,12 +9,12 @@ myWords.style.height=100+"px";         //this section sets the properties of our
 myWords.style.width=100+"px";
 
 
-let i=0
-
-while(i<5){
-    i++;
-    myWords.innerHTML+=i*1000;
-    console.log(i*1000);
+let i=["Music","Golf", "My dog", "Food", "Sleep"]
+let t=0;
+while(t<4){
+    t++;
+    myWords.innerHTML+=i[t]+", is one of my favorite things"+"<br />";
+    
 }
 
 document.body.appendChild("number")
