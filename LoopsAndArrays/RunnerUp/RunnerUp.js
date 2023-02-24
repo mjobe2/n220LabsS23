@@ -16,8 +16,8 @@ myWords.style.width=100+"px";
 let i=[5,7,12];
  let t=0
 while (t<1){
-    t++;
-myWords.innerHTML+= i[0];
+    t++;                 //only need to run this once
+myWords.innerHTML+= i[0];      //selects the element postion from the array
 mySecond.innerHTML+=  i[1];
 myThird.innerHTML+= i[2];
 
