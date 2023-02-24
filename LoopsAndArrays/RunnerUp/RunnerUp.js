@@ -14,8 +14,8 @@ myWords.style.width=100+"px";
 
 
 let i=[5,7,12];
- 
-while (i<5){
+ let t=0
+while (t<5){
 myWords.innerHTML+= i[0];
 mySecond.innerHTML+=  i[1];
 myThird.innerHTML+= i[2]  ;
