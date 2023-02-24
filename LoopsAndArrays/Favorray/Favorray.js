@@ -17,7 +17,7 @@ let i=["Music","Golf", "My dog", "Food", "Sleep"]
 let t=0;
 while(t<4){
     t++;
-    myWords.innerHTML+=i[t]+", is one of my favorite things"+"<br />";   //selects element at t, adds words, and breaks up sections
+    myWords.innerHTML+=i[t]+", is one of my favorite things."+"<br />";   //selects element at t, adds words, and breaks up sections
     
 }
 
