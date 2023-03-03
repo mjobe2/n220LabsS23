@@ -3,6 +3,7 @@
 //order from smallest to largest
 
 
+
 let myWords= document.getElementById("number")
 let mySecond= document.getElementById("runnerup")
 let myThird= document.getElementById("thirdplace")
