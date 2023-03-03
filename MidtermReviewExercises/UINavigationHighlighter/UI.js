@@ -1,4 +1,7 @@
 //add div to that says which div you have clicked on
+//document.getElementByID("name of div")
+//seperate function to highlight each div
+//change background color of one to the color, make rest white
 
 let myTop= document.getElementById("topScreen")
 let myWords= document.getElementById("one")
