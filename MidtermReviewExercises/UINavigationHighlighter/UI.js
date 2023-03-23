@@ -34,6 +34,7 @@ mySixth.innerHTML+=i[5];
 function highlightOne(){                //one functioon for each onClick
     myTop.innerHTML=i[0];
 myWords.style.backgroundColor="red";    //change color of that div, and make the rest white
+
 mySecond.style.backgroundColor="white";
 myThird.style.backgroundColor="white";
 myFourth.style.backgroundColor="white";
@@ -57,6 +58,7 @@ function highlightThree(){
     mySecond.style.backgroundColor="white";
     myWords.style.backgroundColor="white";
     myThird.style.backgroundColor="orange";
+    
     myFourth.style.backgroundColor="white";
     myFifth.style.backgroundColor="white";
     mySixth.style.backgroundColor="white";
