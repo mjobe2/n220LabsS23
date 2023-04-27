@@ -33,9 +33,9 @@ while(i<splitstatement.length){
 }
 myAnswer.innerHTML=("The sum is: "+ sum );
 myValue.innerHTML=("The averge is: " +average);
-var getItself= document.getElementById("Text");
-if (getItself.value !="") {
-    getItself.value = "";
+var theText= document.getElementById("Text");
+if (theText.value !="") {
+    theText.value = "";
 }
 }
 //while i less than array length num= myarray[i]
