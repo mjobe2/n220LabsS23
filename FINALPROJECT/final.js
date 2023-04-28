@@ -7,14 +7,18 @@
 //player 1 X, player 2 O
 
 //Get coordinates from user
+//Places X or Y in at those coordinates
+
+//IF three in a row or three diagonal then that player wins
+//If board is filled and there has been no winner then game tied
 
 let myColumn= document.getElementById("Column")
 let myRow= document.getElementById("Row")
 let myAnswer= document.getElementById("number")
 let myBoard= document.getElementById("Board")
-myAnswer.innerHTML=("Enter Column and Row");
+myAnswer.innerHTML=("Enter Row and Column");
 
-var grid = [
+var grid  = [
 
     [ '_','_','_'],
   
@@ -23,14 +27,15 @@ var grid = [
       
   
   ];
+  
 
   myBoard.innerHTML=[grid[0][0],grid[0][1],grid[0][2]+"<br />"+      //breaks up the array into the tic tac toe board
         grid[1][0],grid[1][1],grid[1][2]+"<br />"+
         grid[2][0],grid[2][1],grid[2][2]];
   
 
-let i=0;
-let y=0;
+let i=0;            //how many rounds have been played
+let y=0;            //variable for which marker will be placed
 
 function getValue(){
   
@@ -46,7 +51,7 @@ function getValue(){
        }
        
        
-grid [myColumn.value][myRow.value]=y;  //whatever
+grid [myColumn.value][myRow.value]=y;  //whatever coordinates they put will be equal to X or Y
 myBoard.innerHTML=[grid[0][0],grid[0][1],grid[0][2]+"<br />"+      //breaks up the array into the tic tac toe board
         grid[1][0],grid[1][1],grid[1][2]+"<br />"+
         grid[2][0],grid[2][1],grid[2][2]];
@@ -55,7 +60,8 @@ console.log(i);
 console.log(y);
 
 //myBoard.innerHTML=grid;
-if (i>4){
+if (i>4){ 
+
     if ((grid[0][0]==grid[0][1])&& (grid[0][2]==grid[0][0])){    //WINNING CONDITIONS VVVVV
         myAnswer.innerHTML=("Player " + y +" Wins!");
     }
@@ -66,6 +72,9 @@ if (i>4){
          
     }
   }
+
+  
+
   if (i>4){
     if ((grid[1][0]==grid[1][1]) && (grid[1][2]==grid[1][0])){
         myAnswer.innerHTML=( "Player " + y +" Wins!");
