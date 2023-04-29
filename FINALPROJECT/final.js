@@ -8,6 +8,7 @@
 
 //Get coordinates from user
 //Places X or Y in at those coordinates
+//update what the user sees based on what they play
 
 //IF three in a row or three diagonal then that player wins
 //If board is filled and there has been no winner then game tied
